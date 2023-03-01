@@ -1,0 +1,31 @@
+# Ignore compiled Python files
+*.pyc
+*.pyo
+__pycache__/
+
+# Ignore logs, backups, and temporary files
+logs/
+*.log
+*.swp
+*~
+*.bak
+*.tmp
+
+# Ignore environment-specific files
+.env
+.env.*
+venv/
+.venv/
+env/
+.conda/
+
+# Ignore local development files
+/.idea/
+/.vscode/
+*.pydevproject
+*.project
+*.settings/
+
+# others
+cfg.py
+DButils.py
